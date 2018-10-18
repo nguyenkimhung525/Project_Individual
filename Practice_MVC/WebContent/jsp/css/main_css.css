@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+body{
+	padding: 0;
+	margin: 0;
+}
+div{
+	height: 260px;
+	width: 500px;
+	background: #f2f2f2;
+	position: relative;
+	}
+div .col-field{
+	width: 400px;
+	position: absolute;
+	bottom: 10%;
+	left: 7%;	
+}
+table{
+	padding: 0.5em 0.6em;
+}
