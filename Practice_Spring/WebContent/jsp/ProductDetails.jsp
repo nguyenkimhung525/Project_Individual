@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+ <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
@@ -14,6 +14,10 @@
         Product Name: ${product.name}<br/>
         Description: ${product.description}<br/>
         Price: $${product.price}
+        <br/>
+    	FlastRedirect:${products.name}<br/>
+    	 FlastRedirect: ${products.description}<br/>
+        FlastRedirect: $${products.price}
     </p>
 </div>
 </body>
